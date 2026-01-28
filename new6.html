@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <style>
+        th,td {
+            border: 1px solid black; 
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: blue;
+            color:rgb(218, 20, 191);
+        }
+        table {
+            width:100%;
+            /* it is used to merge the table borders */ 
+            border-collapse: collapse;
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Employee ID</th>
+            <th>Mail ID</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>12345</td>
+            <td>john@example.com</td>
+        </tr>
+        <tr>
+            <td>Smith</td>
+            <td>12346</td>
+            <td>smith@example.com</td>
+        </tr>
+    </table>
+</body>
+</html>
