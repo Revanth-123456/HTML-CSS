@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 20px;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .two{
+            display:flex;
+            flex-direction: row;
+            gap: 20px;
+
+        }
+        .one{
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+        }
+        .videoone {
+            height: 620px;
+            width:900px;
+        }
+        .videotwo {
+            height: 200px;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="two">
+        <iframe class="videoone" src="new/video.mp4" frameborder="0"></iframe>
+    </div>
+    <div class="one">
+        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+    </div>
+    </div>
+</body>
+</html>
