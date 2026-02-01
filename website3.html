@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .main{
+        .main {
             display: grid;
             grid-template-columns: 100% 30%;
             gap: 20px;
-            display:flex;
-            flex-direction: row;
+            display: flex;
             flex-wrap: wrap;
+            
         }
-        .two{
-            display:flex;
-            flex-direction: row;
-            gap: 10px;
+        .textone{
+            color: aquamarine;
+            font-size: 100px;
+            text-align: justify;
+            
         }
-        .one{
+
+        .one {
             display: flex;
             flex-direction: column;
-            gap:20px;
+            gap: 20px;
         }
+
+        .two {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
         .videoone {
+            display: flex;
             height: 620px;
-            width:1150px;
+            width: 1150px;
         }
+
         .videotwo {
             height: 200px;
-            width:100%;
+            overflow: scroll;
+        }
+        .new {
+            margin-left: 100px;
+            margin-right: 200px;
+            
+        }
+        .my{
+            text-align: center;
         }
     </style>
 </head>
+
 <body>
+    <h1 class="new">hi</h1>
     <div class="main">
-    <div class="two">
-        <iframe class="videoone" src="new/video.mp4" frameborder="0"></iframe>
+        <div class="one">
+            <iframe class="videoone" src="new/video.mp4" frameborder="0"></iframe>
+            <div>
+                <h1 class="textone">hiii</h1>
+            </div>
+      </div>
+        <div class="two">
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <h1 class="my">hiii</h1>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+            <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
+        </div>
+        
     </div>
-    <div class="one">
-        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
-        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
-        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
-        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
-        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
-        <iframe class="videotwo" src="new/video.mp4" frameborder="0"></iframe>
-    </div>
-    </div>
+
 </body>
+
 </html>
