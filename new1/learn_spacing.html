@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /*priority-1.element selector(p)* 2.inline style 3.id 4.class 5.element(or)internalcss*/
-        p{
+        /*priority-1.element selector(p)* 2.inline style 3.id 4.class 5.element or  internal css  6.universa; selector(*)*/
+        /* 1ST */
+        /* p{
             color:blue !important;
+        } */
+         /* 5th  */
+        p{
+            color: aqua;
         }
         #para{
             color: red;
         }
         .one{
             color:pink;
+        }
+        h1{
+            color:red;
         }
         /* liststyletype are:circle ,disc ,square ,lower alpha,lower roman many*/
         li{
@@ -27,13 +35,26 @@
             /* display: none;
             visibility: hidden; */
         }
+        *{
+            color: blueviolet;
+        }
 
     </style>
 </head>
 <body>
-    <p style="color:green;" id="para" class="one">
+    <!-- 2nd -  style="color:green;"
+         3rd -  id="para"
+         4th -  class="one"
+      -->
+    <p>
         My Paragraph
     </p>
+    <h1>
+        HIII
+    </h1>
+    <h2 id="para">
+        hello
+    </h2>
     <ul>
         <li>List One</li>
     </ul>
