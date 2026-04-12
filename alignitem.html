@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Align Items Example</title>
+    <style>
+        .container {
+            display: flex;
+            height: 300px;
+            border: 2px solid black;
+            background-color: lightgray;
+
+            /* Change this value to see different alignments */
+            /* start,center, end-normal container flex-start,flex-end when u use flex*/
+           align-items: flex-end;
+        }
+
+        .box {
+            width: 80px;
+            height: 80px;
+            background-color: teal;
+            color: white;
+            margin: 10px;
+            display: flex;
+            /* in flex use justify-content and align-item */
+            justify-content: end;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Align Items Example</h2>
+
+<div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+</div>
+
+</body>
+</html>
